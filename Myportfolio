@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- img -->
+     <img src="img/Reynard2.jpeg" width="340" height="200">
+       <!--- end of img -->
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+         <!-- Heading -->
+     
+   <!-- Hero Section  -->
+       <section id="hero">
+         <div class="hero bat">
+          <div>
+           <h1>Hi I'm</h1>
+           <h1>Reynard Cayetano</h1>
+           <h1>I'm Front end Developer</h1>
+       </div>
+      </section>
+   <!-- End Hero Section  -->
+         <!-- end of Heading -->
+         
+         <!-- About -->
+         <h2><strong>About me </strong></h2>
+        <!-- end about -->
+         <!-- paragraph -->
+        <h4>
+          <hr>
+           <em>
+             Hi I'm <strong>Reynard Cayetano</strong> I'm newbie in programming but I'm always skilled up my skills to pursue my dreams as a Programmer I'm 21 years old from Tunasan Muntinlupa city I love coding and developing I'm Front end dev 
+             </em>
+           <hr/>
+         </h4>
+             <!-- end paragraph -->
+    <body>
+         <!--  My skills -->
+       <h2><strong> My Skills </strong></h2>
+        <img src="img/images (8).png" width="90" height="70">
+                  <br> <br/>
+        <img src="img/images (14).jpeg" width="90" height="70">
+                  <br> <br/>
+        <img src="img/images (9).png" width="90" height="70"> 
+                  <br> <br/>
+        <img src="img/images (10).jpeg" width="90" height="70">
+              <br>
+              </br>
+        <!-- end My skills -->
+        
+        <!-- My Projects -->
+        <h2><strong> My Projects </strong></h2>
+        <img src="img/image (14).jpeg" width="290" height="200">
+              <br>
+              </br>
+        <img src="img/image (15).jpeg" width="290" height="200">
+              <br>
+              </br>
+        <img src="img/image (16).jpeg" width="290" height="200">
+              <br>
+              </br>
+        <!-- end My Projects -->
+        <h2><strong> Contact Us </strong></h2>
+          <div class="container">
+           <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+             <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+              <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+         <label for="country">Country</label>
+       <select id="country" name="country">
+     <option value="Philippines">Philippines</option>
+       <option value="canada">Canada</option>
+       <option value="usa">USA</option>
+     </select>
+
+       <label for="subject">Subject</label>
+         <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></text*rea>
+ 
+       <input type="submit" value="Submit">
+
+     </form>
+  </div>
+                <br>
+                </br>
+       <img src="img/nard1.jpg" width="50" height="40"> 
+         <img src="img/nard2.jpg" width="50" height="40"> 
+         <img src="img/nard3.jpg" width="50" height="40"> 
+         <img src="img/nard4.jpg" width="50" height="40"> 
+              <br> </br>
+      <script src="Main.js"></script>
+    </body>
+ <footer>
+    <div>
+             <br>
+       <a href="index.html"><button>Home</button></a>
+       <a href="About me"><button>About Us</button></a>
+       <a href="My skills"><button>Skills</button></a>
+       <a href="My Projects"><button>My projects</button></a>
+       <a href="Contact us"><button>Hired me!</button></a>
+     </div>
+      <p><b> Created by Reynard cayetano © 2020 to 2026 All rights reserved </b></p>
+ </footer>
+</html>
